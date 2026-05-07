@@ -391,24 +391,6 @@ Instead of writing raw files directly to S3, the project uses Apache Iceberg to 
 
 The final dataset is registered in Glue Catalog and queried using Athena, allowing business-level aggregations without managing database infrastructure.
 
----
-
-## Possible Dashboard Extension
-
-The processed Iceberg table can be connected to a dashboarding layer using Amazon QuickSight, Streamlit, Power BI, or Tableau.
-
-Recommended dashboard metrics include:
-
-- Total click revenue
-- Total clicks
-- Average bid price
-- Average click price
-- Average engagement duration
-- Revenue by campaign
-- Revenue by publisher
-- Revenue by geo location
-- Engagement by platform
-- Premium vs non-premium ad performance
 
 ---
 
